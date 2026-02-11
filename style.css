@@ -1,0 +1,78 @@
+/* Styling the image as a photo frame */
+.photo-frame {
+    width: 300px;
+    border: 10px solid #333;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/*  Student Mark Sheet Table Styling */
+table {
+    width: 80%;
+    border-collapse: collapse; /* Merges borders for a clean look */
+    margin: 20px 0;
+}
+
+/* Add borders to the table, rows, and cells */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Add padding inside table cells */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style the header row with a different color and bold text */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Alternate row background colors (zebra striping) */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Personal Profile Card Styling */
+.profile-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-card .title {
+    color: grey;
+    font-size: 18px;
+}
+
+.profile-card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.profile-card button:hover {
+    opacity: 0.7;
+}
