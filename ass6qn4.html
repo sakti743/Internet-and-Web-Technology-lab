@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="number" id="counter" value="0" readonly>
+    <button onclick="adjust(1)">+</button>
+    <button onclick="adjust(-1)">-</button>
+
+    <script>
+        function adjust(val) {
+            let input = document.getElementById("counter");
+            let current = parseInt(input.value);
+            let result = current + val;
+            if (result >= 0) {
+                input.value = result;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="textPara">Good morning sir/mam. my name is Sakti Prasad Mahanta. And this is a toggleable paragraph.</p>
+    <button id="toggleBtn" onclick="togglePara()">Hide</button>
+    <script>
+        function togglePara() {
+            const para = document.getElementById("textPara");
+            const btn = document.getElementById("toggleBtn");
+
+            if (para.style.display === "none") {
+                para.style.display = "block";
+                btn.textContent = "Hide";
+            } else {
+                para.style.display = "none";
+                btn.textContent = "Show";
+            }
+        }
+    </script>
+</body>
+</html>
